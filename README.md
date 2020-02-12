@@ -4,6 +4,14 @@
 yarn add --dev eslint-config-biglemon
 ```
 
+Then include this in your package.json
+
+```
+"eslintConfig": {
+	"extends": "biglemon"
+},
+```
+
 ## VSCode Settings
 
 ```
