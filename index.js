@@ -7,6 +7,23 @@ module.exports = {
 		"no-shadow": "off",
 		"no-underscore-dangle": 0,
 		"camelcase": "off",
+		"consistent-return": 0,
+		"global-require": 0,
+		"jsx-a11y/label-has-associated-control": [
+			2,
+			{
+				"labelComponents": [
+					"CustomInputLabel"
+				],
+				"labelAttributes": [
+					"label"
+				],
+				"controlComponents": [
+					"CustomInput"
+				],
+				"depth": 3
+			}
+		],
 		"import/no-extraneous-dependencies": "off",
 		"import/no-named-as-default": "off",
 		"import/no-named-as-default-member": "off",
@@ -21,7 +38,8 @@ module.exports = {
 				"arrowParens": "always",
 				"bracketSpacing": true,
 				"jsxBracketSameLine": false,
-				"printWidth": 100
+				"printWidth": 110,
+				"trailingComma": "es5"
 			}
 		],
 		"indent": [
