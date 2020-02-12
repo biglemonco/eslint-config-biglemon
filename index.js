@@ -2,6 +2,16 @@ module.exports = {
     "extends": ["airbnb", "prettier", "prettier/react"],
 	"plugins": ["prettier"],
 	"rules": {
+		"no-unused-vars": "warn",
+		"no-console": "off",
+		"no-shadow": "off",
+		"no-underscore-dangle": 0,
+		"camelcase": "off",
+		"import/no-extraneous-dependencies": "off",
+		"import/no-named-as-default": "off",
+		"import/no-named-as-default-member": "off",
+		"import/prefer-default-export": 0,
+		"react/no-unescaped-entities": ["warn"],
 		"prettier/prettier": [
 			"error",
 			{
@@ -14,9 +24,6 @@ module.exports = {
 				"printWidth": 100
 			}
 		],
-		"no-unused-vars": "warn",
-		"no-console": "off",
-		"no-shadow": "off",
 		"indent": [
 			"error",
 			"tab",
@@ -37,8 +44,6 @@ module.exports = {
 					"JSXSpreadChild"
 				]
 			}
-		],
-		"react/no-unescaped-entities": ["warn"],
-		"camelcase": "off"
+		]
 	}
 };
