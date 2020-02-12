@@ -1,7 +1,7 @@
 ## Installing
 
 ```
-yarn add --dev eslint-config-biglemon
+yarn add --dev @biglemon/eslint-config
 ```
 
 Then include this in your package.json
