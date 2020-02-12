@@ -6,7 +6,7 @@ yarn add --dev eslint-config-biglemon
 
 ## VSCode Settings
 
-```json
+```
 {
 	"editor.formatOnSave": true,
 	// turn it off for JS and JSX, we will do this via eslint
