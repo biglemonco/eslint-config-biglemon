@@ -15,6 +15,12 @@ module.exports = {
 		"arrow-parens": ["error", "always"],
 		"object-curly-spacing": ["error", "always"],
 		"array-bracket-spacing": ["error", "always"],
+		"object-property-newline": [
+			"error",
+			{
+				"allowAllPropertiesOnSameLine": false
+			}
+		],
 		"keyword-spacing": [
 			"error",
 			{
