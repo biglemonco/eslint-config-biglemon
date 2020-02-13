@@ -1,6 +1,5 @@
 module.exports = {
-    "extends": ["airbnb", "prettier", "prettier/react"],
-	"plugins": ["prettier"],
+    "extends": ["airbnb"],
 	"rules": {
 		"no-unused-vars": "warn",
 		"no-console": "off",
@@ -9,39 +8,13 @@ module.exports = {
 		"camelcase": "off",
 		"consistent-return": 0,
 		"global-require": 0,
-		"jsx-a11y/label-has-associated-control": [
-			2,
-			{
-				"labelComponents": [
-					"CustomInputLabel"
-				],
-				"labelAttributes": [
-					"label"
-				],
-				"controlComponents": [
-					"CustomInput"
-				],
-				"depth": 3
-			}
-		],
-		"import/no-extraneous-dependencies": "off",
-		"import/no-named-as-default": "off",
-		"import/no-named-as-default-member": "off",
-		"import/prefer-default-export": 0,
-		"react/no-unescaped-entities": ["warn"],
-		"prettier/prettier": [
-			"error",
-			{
-				"singleQuote": true,
-				"tabWidth": 4,
-				"useTabs": true,
-				"arrowParens": "always",
-				"bracketSpacing": true,
-				"jsxBracketSameLine": false,
-				"printWidth": 110,
-				"trailingComma": "es5"
-			}
-		],
+		"no-tabs": 0,
+		"quotes": ['error', 'single'],
+		"comma-dangle": ['error', 'always-multiline'],
+		"max-len": ["error", { "code": 110 }],
+		"arrow-parens": ["error", "always"],
+		"object-curly-spacing": ["error", "always"],
+		"array-bracket-spacing": ["error", "always"],
 		"indent": [
 			"error",
 			"tab",
@@ -62,6 +35,46 @@ module.exports = {
 					"JSXSpreadChild"
 				]
 			}
-		]
+		],
+		"jsx-a11y/label-has-associated-control": [
+			2,
+			{
+				"labelComponents": [
+					"CustomInputLabel"
+				],
+				"labelAttributes": [
+					"label"
+				],
+				"controlComponents": [
+					"CustomInput"
+				],
+				"depth": 3
+			}
+		],
+		"import/no-extraneous-dependencies": "off",
+		"import/no-named-as-default": "off",
+		"import/no-named-as-default-member": "off",
+		"import/prefer-default-export": 0,
+		"react/no-unescaped-entities": ["warn"],
+		"react/jsx-first-prop-new-line": [
+			1,
+			"multiline"
+		],
+		"react/no-unescaped-entities": 0,
+		"react/jsx-max-props-per-line": [
+			1,
+			{
+				"maximum": 1
+			}
+		],
+		"react/jsx-indent-props": [
+			1,
+			"tab"
+		],
+		"react/jsx-closing-bracket-location": 1,
+		"react/jsx-indent": [
+			1,
+			"tab"
+		],
 	}
 };
