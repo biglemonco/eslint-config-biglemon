@@ -15,6 +15,22 @@ module.exports = {
 		"arrow-parens": ["error", "always"],
 		"object-curly-spacing": ["error", "always"],
 		"array-bracket-spacing": ["error", "always"],
+		"keyword-spacing": [
+			"error",
+			{
+				"overrides": {
+					"if": {
+						"after": false
+					},
+					"for": {
+						"after": false
+					},
+					"while": {
+						"after": false
+					}
+				}
+			}
+		],
 		"indent": [
 			"error",
 			"tab",
