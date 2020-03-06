@@ -1,6 +1,6 @@
 {
 	"name": "@biglemon/eslint-config",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "ESLint config for Big Lemon",
 	"main": "index.js",
 	"dependencies": {
