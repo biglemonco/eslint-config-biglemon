@@ -98,6 +98,7 @@ module.exports = {
 			1,
 			"tab"
 		],
+		"react/jsx-pascal-case": 0,
 		"react/destructuring-assignment": 0,
 		"react/require-default-props": 0,
 		"react/forbid-prop-types": 0,
