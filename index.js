@@ -9,6 +9,7 @@ module.exports = {
 		"consistent-return": 0,
 		"global-require": 0,
 		"no-tabs": 0,
+		"no-nested-ternary": 0,
 		"quotes": ['error', 'single'],
 		"comma-dangle": ['error', 'always-multiline'],
 		"max-len": ["error", { "code": 110 }],
