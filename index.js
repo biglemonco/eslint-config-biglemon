@@ -104,6 +104,7 @@ module.exports = {
 		"react/require-default-props": 0,
 		"react/forbid-prop-types": 0,
 		"react/no-danger": 0,
-		"react/jsx-filename-extension": 0
+        "react/jsx-filename-extension": 0,
+        "react/jsx-one-expression-per-line": 0
 	}
 };
